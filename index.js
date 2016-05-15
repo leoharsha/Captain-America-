@@ -1,0 +1,9 @@
+$(document).ready(function(){
+  $(".shield").throwable({
+    autostart:false,
+    //gravity:{x:0,y:1},
+    shape:"circle",                  
+    bounce:0.5,
+    damping:10,
+  });
+});
